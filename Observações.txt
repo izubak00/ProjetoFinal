@@ -1,0 +1,15 @@
+O JPA funcionou no meu pc principal, porem quando testei no meu outro pc ele não reconheceu, 
+não sei o que rolou, talvez seja o problema de build path que rolou na aula com o professor,
+vou mandar o script da tabela pra facilitar caso de problema:
+
+CREATE TABLE `dsi`.`livro` (
+ `id` INT NOT NULL AUTO_INCREMENT , 
+ `nome` VARCHAR(30) NOT NULL , 
+ `preco` DOUBLE NOT NULL , 
+ `qtd` INT NOT NULL , PRIMARY KEY (`id`))
+ 
+ 
+ Era pra ter uma segunda tabela pra guardar os dados da venda com base na data,
+ mas tive problemas com a conversão da data do pc pra data do bd, então acabei ignorando essa parte.
+ 
+ O programa ta bem "ruim" (pra não dizer outra coisa), então ja to esperando o IFA haha
